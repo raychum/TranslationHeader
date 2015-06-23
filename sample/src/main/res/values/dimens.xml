@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="header_height">300dp</dimen>
+    <dimen name="header_image_height">260dp</dimen>
+    <dimen name="header_tab_height">40dp</dimen>
+
+    <dimen name="toolbar_height">50dp</dimen>
+    <dimen name="sub_tab_height">30dp</dimen>
+</resources>
