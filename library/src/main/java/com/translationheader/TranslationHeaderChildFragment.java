@@ -49,7 +49,7 @@ public abstract class TranslationHeaderChildFragment extends Fragment {
             parentFragment.getOnScrollListener().onScrolled(TranslationHeaderChildFragment.this, scrollX += dx, scrollY += dy);
             int maxTranslationY = parentFragment.getMaxTranslationY();
             getRecyclerHeader().translateHeader(Math.min(scrollY, maxTranslationY), 0);
-            Log.d(TAG + index, "onScrolled scrollY=" + scrollY);
+            Log.d(TAG + index, "onScrolled scrollY=" + Math.min(scrollY, maxTranslationY));
         }
     }
 }

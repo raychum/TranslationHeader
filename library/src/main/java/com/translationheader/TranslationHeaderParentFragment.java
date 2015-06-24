@@ -142,6 +142,7 @@ public abstract class TranslationHeaderParentFragment extends Fragment {
                     translationDY = headerTranslationY;
                 }
             }
+            translationDY = Math.min(translationDY, getMaxTranslationY());
             return translationDY;
         }
 
